@@ -1,7 +1,9 @@
 tinymce-soundcloud
 ==================
 
-Soundcloud button for TinyMCE editor to embed tracks by ID or full share code.
+Soundcloud button for TinyMCE v4 editor to embed tracks by full share code.
+
+Add "soundcloud" plugin and as a button or menù item.
 
 Fork of [https://github.com/jaymzcd/tinymce-soundcloud](https://github.com/jaymzcd/tinymce-soundcloud) from [jaymz campbell](https://github.com/jaymzcd).
 
