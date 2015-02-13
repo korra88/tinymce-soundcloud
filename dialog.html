@@ -1,31 +1,32 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
-        <title>{#example_dlg.title}</title>
-        <script type="text/javascript" src="js/tiny_mce_popup.js"></script>
-        <script type="text/javascript" src="js/soundcloud.js?v=1.0"></script>
+        <title>Tracce di soundcloud</title>
+        <script type="text/javascript" src="js/soundcloud.js"></script>
     </head>
     <body>
-        <form onsubmit="SoundcloudDialog.insert();
-                return false;" action="#">
-            <h1>Soundcloud embed</h1>
-            <p>
-                You can add a soundcloud embed here. If you know the ID of the track you
-                can enter that, alternatively supply the full embed code from the 'share' page
-                of Soundcloud for any track.
-            </p>
-            <p>
-                Open <a href="http://soundcloud.com/defectedrecords" target="_blank">DefectedRecords</a> on Soundcloud (new tab).
-                View <a href="/admin/radio/soundcloudtrack/" target="_blank">soundcloud tracks</a> within the admin.</p>
-            <p><label>Soundcloud Embed data</label><br><textarea cols="50" rows="2" id="sciframe" name="sciframe" class="text"></textarea></p>
-            <h2>OR</h2>
-            <p><label>Soundcloud ID</label><br><input id="scid" name="scid" type="text" class="text" /></p>
-
-            <div class="mceActionPanel">
-                <input type="button" id="insert" name="insert" value="{#insert}" onclick="SoundcloudDialog.insert();" />
-                <input type="button" id="cancel" name="cancel" value="{#cancel}" onclick="SoundcloudDialog.close();" />
-            </div>
-        </form>
-
+        <br/>
+        <div style="text-align: center">
+            <form onsubmit="SoundcloudDialog.insert();
+                    return false;" action="#">
+                <p>
+                    Scegli la tua traccia su <a href="https://soundcloud.com/explore" target="_blank">soundcloud</a> e apri il menù di condivisione
+                    <br/>
+                    <img src="img/tutorial1.jpg" alt="click share and then embed"></img>
+                    <br/>
+                    Clicca "Embed" in alto, copia il codice ed incollalo qui sotto
+                    <br/>
+                    <img src="img/tutorial2.jpg" alt="copy and paste here the mebed code"></img>
+                    <br/>
+                    <textarea style="width: 550px" cols="50" rows="2" id="sciframe" name="sciframe" class="text" placeholder="Incolla il codice qui!"></textarea>
+                    <br/>
+                    Clicca inserisci ed è fatto!
+                </p>
+                <div class="mceActionPanel">
+                    <input type="button" id="insert" name="insert" value="Inserisci" onclick="SoundcloudDialog.insert();" />
+                    <input type="button" id="cancel" name="cancel" value="Chiudi" onclick="SoundcloudDialog.close();" />
+                </div>
+            </form>
+        </div>
     </body>
 </html>
