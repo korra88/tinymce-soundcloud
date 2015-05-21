@@ -65,7 +65,6 @@ function getVideoId(url) {
 
 //Use jQuery's get method to retrieve the contents of our template file, then render the template.
 $.get('template/form.html', function (template) {
-    console.log(template);
     filled = Mustache.render(template, data);
     $('#template-container').append(filled);
     

@@ -1,11 +1,12 @@
 tinymce.addI18n('en_US',{
-    'Scegli traccia' : 'Scegli la tua traccia su',
-    'menu condivisione' : 'e apri il menù di condivisione',
-    'clicca Embed' : 'Clicca "Embed" in alto, copia il codice',
-    'Incolla codice': 'Incolla qui il codice',
-    'Incolla qui': 'Incolla il codice qui!',
-    'inserisci': 'Inserisci',
-    'chiudi': 'Chiudi',
-    'share copia' : 'Copia il link di condivisione',    
-    'anteprima': 'Anteprima'
+    'Aggiungi una traccia di soundcloud!': 'Add a trace of soundcloud',
+    'Scegli traccia' : 'Choose your track on',
+    'menu condivisione' : 'and open the menu sharing',
+    'clicca Embed' : 'Click "Embed" on top, copy the code',
+    'Incolla codice': 'Paste code here',
+    'Incolla qui': 'Paste the code here!',
+    'inserisci': 'Insert',
+    'chiudi': 'Close',
+    'share copia' : 'Link Sharing',    
+    'anteprima': 'Preview'
 });

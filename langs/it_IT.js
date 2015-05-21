@@ -1,4 +1,5 @@
 tinymce.addI18n('it_IT',{
+    'Aggiungi una traccia di soundcloud!': 'Aggiungi una traccia di soundcloud',
     'Scegli traccia': 'Scegli la tua traccia su',
     'menu condivisione': 'e apri il menù di condivisione',
     'clicca Embed': 'Clicca "Embed" in alto, copia il codice',
